@@ -1,0 +1,17 @@
+TABLA 1: DETERMINANTES DE LA MORTALIDAD INFANTIL
+
+                                (1) OLS              (2) FE         (3) Dynamic        (4) FE-IV
+
+ln_rho                0.525***\n(0.192)   1.620***\n(0.244)   0.881***\n(0.284)   7.361\n(5.508)
+
+ln_tmi_lag                                                    0.212***\n(0.072)
+
+ln_friccion          -0.049***\n(0.009)      0.079\n(0.285)      0.135\n(0.270)  -1.039\n(1.155)
+
+ln_medicos           -0.306***\n(0.062)  -0.797***\n(0.293)  -1.128***\n(0.309)   1.635\n(2.738)
+
+Prov. Fixed Effects                  No                 Yes                 Yes              Yes
+
+Observations                      258.0               258.0               234.0            234.0
+
+R-squared                         0.559               0.835               0.855              ---

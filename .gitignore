@@ -1,4 +1,9 @@
-﻿# --- INFRAESTRUCTURA (Ignorar carpetas pesadas) ---
+﻿# --- SEGURIDAD (Archivos con credenciales) ---
+scripts_python/variable.py
+.env
+secretos.json
+
+# --- INFRAESTRUCTURA (Ignorar carpetas pesadas) ---
 .vscode/
 venv_ia/
 venv_multimedia/
@@ -24,5 +29,12 @@ models_saved/
 *.log
 __pycache__/
 *.py[cod]
+# Agregar esto a tu .gitignore actual:
+.CondaPkg/
+pyjuliapkg/
+stata_packages/
+stata_lib/
+*.tmp
+*.log
 
 # --- NOTA: SÍ se subirán los archivos .toml, .R, .py, .jl, .do y .sql ---
