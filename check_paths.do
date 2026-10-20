@@ -1,1 +1,0 @@
-adopath
